@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/begin.css">
+    <link rel="stylesheet" href="../css/drukopkey.css">
+    <link rel="stylesheet" href="../css/achtergrond.css">
+    <link rel="stylesheet" href="../css/random.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar() id="hideSidebar2"><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="24px" viewBox="0 -960 960 960" width="24px" fill="black">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a></li>
+            <li><a href="index.html">Mijn homepage</a></li>
+            <li><a href="alpen.html">De alpen</a></li>
+            <li><a href="dolomites.html">De dolomites</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Mijn website</a></li>
+            <li onclick=showSidebar() id="menu"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                        viewBox="0 -960 960 960" width="24px" fill="black">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg></a></li>
+        </ul>
+    </nav>
+
+    <h1 id="startScreen">Druk op een key om te beginnen</h1>
+
+    <div id="info">
+        <!-- info -->
+        <div class="maintext">
+            <h1>Welkom op mijn website</h1>
+        </div>
+
+        <div class="subtext">
+            <p>
+                Hier vindt je foto's van de gebergte in de wereld.<br>
+                Klik op het menu balkje voor meer info.
+                <br>
+                <br>
+            </p>
+            <button id="randomImageBtn">Laat random afbeelding zien</button>
+        </div>
+
+        <div id="randomImageContainer">
+            <img id="randomImage" alt="Random Image">
+        </div>
+    </div>
+
+
+    <script src="../js/sidebar.js"></script>
+    <script src="../js/begin.js"></script>
+    <script src="../js/randomafb.js"></script>
+</body>
+
+</html>

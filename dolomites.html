@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dolomites</title>
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/drukopkey.css">
+    <link rel="stylesheet" href="../css/achtergronddolo.css">
+    <link rel="stylesheet" href="../css/textdolo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar() id="hideSidebar2"><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="24px" viewBox="0 -960 960 960" width="24px" fill="black">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a></li>
+            <li><a href="index.html">Mijn homepage</a></li>
+            <li><a href="alpen.html">De alpen</a></li>
+            <li><a href="dolomites.html">De dolomites</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Dolomites</a></li>
+            <li onclick=showSidebar() id="menu"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                        viewBox="0 -960 960 960" width="24px" fill="black">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg></a></li>
+        </ul>
+    </nav>
+
+
+    <div class="background">
+        <div class="maintext">
+            <h1>Welkom bij de dolomieten</h1>
+        </div>
+
+        <div class="subtext">
+            <p>Dit zijn de dolomieten:</p>
+        </div>
+
+        <div class="image-viewer">
+            <button id="prev">&lt;</button>
+            <img id="main-image" src="../images/dolo2.jpeg" alt="Dolomieten">
+            <button id="next">&gt;</button>
+        </div>
+    </div>
+
+
+
+    <script src="../js/sidebar.js"></script>
+    <script src="../js/begin.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="../js/scrollafbeelding.js"></script>
+</body>
+
+</html>

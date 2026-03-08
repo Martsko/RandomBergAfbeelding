@@ -1,0 +1,28 @@
+#randomImageContainer {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#randomImage {
+    width: 500px;
+    height: 20rem;
+    border-radius: 8px;
+}
+
+button {
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
